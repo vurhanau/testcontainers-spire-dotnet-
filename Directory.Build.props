@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageId>$(AssemblyName)</PackageId>
+    <Version>0.0.1</Version>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <AssemblyVersion>$(Version)</AssemblyVersion>
+    <FileVersion>$(Version)</FileVersion>
+    <Product>Testcontainers.Spire</Product>
+    <Description>Testcontainers.Spire is a .NET library to support tests with SPIRE.</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>automation;docker;dotnet;testcontainers;testcontainers-dotnet;testcontainers-spire-dotnet;testing;spire;spiffe;</PackageTags>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/vurhanau/testcontainers-spire-dotnet</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWarn>CS0618,CS1591,SA0001,SA1600,SA1633,SA1649,CA1859,CA1861</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>

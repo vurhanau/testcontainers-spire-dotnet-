@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "C#: Testcontainers.Spire",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/Testcontainers.Spire/Testcontainers.Spire.csproj",
+            "launchConfigurationId": "TargetFramework=;Testcontainers.Spire"
+        },
+        {
+            "name": "C#: Testcontainers.Spire.Tests",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/tests/Testcontainers.Spire.Tests/Testcontainers.Spire.Tests.csproj",
+            "launchConfigurationId": "TargetFramework=;Testcontainers.Spire.Tests"
+        }
+    ]
+}
